@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="316.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aigame.HelloController">
+   <children>
+      <Button fx:id="v1" layoutX="57.0" layoutY="143.0" mnemonicParsing="false" onAction="#StartGame" prefHeight="48.0" prefWidth="184.0" style="-fx-background-radius: 5em; -fx-background-color: #8e65d9;" text="versions  1" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="v2" layoutX="57.0" layoutY="284.0" mnemonicParsing="false" onAction="#StartGame" prefHeight="48.0" prefWidth="184.0" style="-fx-background-radius: 5em; -fx-background-color: #8e65d9;" text="versions   2" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="6.0" layoutY="60.0" text="Choose the version you want to play with" textFill="#8e65d9">
+         <font>
+            <Font name="Arial Bold Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
